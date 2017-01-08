@@ -1,0 +1,25 @@
+.container{
+  padding-top: 30px;
+}
+
+#app{
+  text-align: center;
+}
+
+#createForm input{
+  font-size: 20px;
+}
+
+.btn{
+  margin-left: 10px;
+}
+
+.error{
+  font-size: 25px;
+  padding: 5px;
+  margin: 15px;
+}
+
+td{
+  font-size: 20px;
+}

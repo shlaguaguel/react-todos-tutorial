@@ -13,7 +13,7 @@ export default class TodosList extends React.Component {
 
   render() {
     return (
-      <table>
+      <table className='table table-striped table-hover'>
         <TodosListHeader />
         <tbody>
           {this.renderItems()}

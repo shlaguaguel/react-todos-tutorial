@@ -15,7 +15,7 @@ export default class CreateTodo extends React.Component {
     if(!this.state.error) { return null; }
 
     return(
-      <div className='alert alert-danger'>
+      <div className='alert alert-danger error'>
         {this.state.error}
       </div>
     );
@@ -23,9 +23,11 @@ export default class CreateTodo extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleCreate.bind(this)}>
-        <input type='text' placeholder='What do I need to do ?' ref="createInput" />
-        <button>Create</button>
+      <form onSubmit={this.handleCreate.bind(this)} className="form-inline" id="createForm">
+        <div className='form-group'>
+          <input type='text' className="form-control" placeholder='What do I need to do ?' ref="createInput" />
+        </div>
+        <button className="btn btn-primary">Create</button>
         {this.renderError()}
       </form>
     )
