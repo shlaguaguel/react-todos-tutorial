@@ -1,6 +1,5 @@
 # React Tutorial: Build a ToDo App
-This is a Todos App build with React from the tutorial of Michael Cheng
-(https://www.youtube.com/watch?v=IR6smI_YJD).
+This is a Todos App build with React from the tutorial of [Michael Cheng](https://www.youtube.com/watch?v=IR6smI_YJDE).
 Customisation by me with [bootstrap](http://getbootstrap.com/).
 
 ## Getting Started
