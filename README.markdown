@@ -22,4 +22,6 @@ Launch the server
 $ webpack-dev-server
 ```
 
-Go to your local url http://localhost:8080
+Go test [http://localhost:8080](http://localhost:8080)
+
+Enjoy!
