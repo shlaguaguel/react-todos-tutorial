@@ -2,6 +2,8 @@
 This is a Todos App build with React from the tutorial of [Michael Cheng](https://www.youtube.com/watch?v=IR6smI_YJDE).
 Customisation by me with [bootstrap](http://getbootstrap.com/).
 
+Try demo at [https://react-todos-tutorial.herokuapp.com/](https://react-todos-tutorial.herokuapp.com/)
+
 ## Getting Started
 
 To get started with the app:
